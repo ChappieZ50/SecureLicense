@@ -1,26 +1,28 @@
 <?php
 
 /**
- *  Settings 
+ *  Settings
  */
 session_start();
 ob_start();
-ini_set("display_errors", "0");
+ini_set("display_errors", "1");
+error_reporting(E_ALL);
 date_default_timezone_set('Europe/Istanbul');
 setcookie("activity_time","activity_time", time() + 60);
 /**
  * Defines
  */
 if(!defined("ACCESS")){
-    define("ACCESS",true);
+	define("ACCESS",true);
 }
 define('SLPATH',realpath('.'));
 define('SLDIR',__DIR__);
 define('DEVMODE',false);
 define("SECPATH",realpath(".")."/SecureLicense/");
-define("URL","https://herkesicinpaylas.com/");
-define("POSTURL","https://herkesicinpaylas.com/license-check/");
-define("CURRENTURL",isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] === 'on' ? "https" : "http" . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
+/* Bu alanı kendi alan adınıza göre düzenlemeniz gerekiyor */
+$ssl = isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] === 'on' ? "https" : "http";
+define("URL",$ssl."://$_SERVER[HTTP_HOST]/");
+define("POSTURL",$ssl."://$_SERVER[HTTP_HOST]/license-check/");
 /**
  * Composer Autolaoding
  */
@@ -32,5 +34,5 @@ require SLDIR."/database.php";
  */
 $helpers = SLDIR."/../Helpers/*.php";
 foreach(glob($helpers) as $helper){
-    require $helper;
+	require $helper;
 }   
