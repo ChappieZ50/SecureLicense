@@ -1,4 +1,8 @@
 <?php
+if(isset($_SESSION["login"])){
+    header("Location:".URL);
+    exit;
+}
 if(post("submit")){
 	$username = post("username");
 	$password = post("password");
