@@ -1,7 +1,4 @@
 <?php
-if($_SERVER['REMOTE_ADDR'] != "85.102.29.55"){
-	die;
-}
 require __DIR__ . "/SecureLicense/Settings/init.php";
 $route = array_values(array_filter(explode("/", $_SERVER['REQUEST_URI'])));
 if (DEVMODE === true) {
