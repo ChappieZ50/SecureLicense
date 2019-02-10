@@ -1,0 +1,17 @@
+{
+    "name": "chappie/project_license",
+    "description": "Lisanslama Sistemi",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ChappieZ50",
+            "email": "ugurtosun50@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SecureLicense\\Classes\\" : "SecureLicense/Classes/"
+        }
+    },
+    "require": {}
+}
