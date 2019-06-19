@@ -11,12 +11,20 @@ class ComposerStaticInita4b44dbad459f2493fd568015508436b
         array (
             'SecureLicense\\Classes\\' => 22,
         ),
+        'B' => 
+        array (
+            'Buki\\' => 5,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'SecureLicense\\Classes\\' => 
         array (
             0 => __DIR__ . '/../..' . '/SecureLicense/Classes',
+        ),
+        'Buki\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/izniburak/router/src',
         ),
     );
 

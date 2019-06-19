@@ -16,7 +16,7 @@ class Login {
 				$admin_username = $admin["sl_username"];
 				if($admin_username === $username && password_verify($password,$admin_password)){
 					$_SESSION["login"] = true;
-					header("Location:".URL);
+					header("Location:".CURRENT);
 				}else{
 					return "Kullanıcı Adı veya Şifre Yanlış";
 				}

@@ -10,7 +10,7 @@ $profile          = $get_profile_data->get_profile_data();
         <nav id="sidebar" class="sidebar-wrapper">
             <div class="sidebar-content">
                 <div class="sidebar-brand">
-                    <a href="<?= URL ?>">Secure License</a>
+                    <a href="<?= CURRENT ?>">Secure License</a>
                     <div id="close-sidebar">
                         <i class="fas fa-times"></i>
                     </div>
@@ -91,10 +91,10 @@ $profile          = $get_profile_data->get_profile_data();
             </div>
             <!-- sidebar-content  -->
             <div class="sidebar-footer">
-                <a href="<?=URL.'quit/'?>">
+                <a href="<?=CURRENT.'/quit/'?>">
                     <i class="fa fa-power-off"></i>
                 </a>
-                <a href="<?=URL.'download/'?>" target="_blank">
+                <a href="<?=CURRENT.'/download/'?>" target="_blank">
                     <i class="fas fa-download"></i>
                 </a>
                 <a href="javascript:;" data-toggle="modal" data-target="#code">

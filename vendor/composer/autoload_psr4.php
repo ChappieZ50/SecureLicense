@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'SecureLicense\\Classes\\' => array($baseDir . '/SecureLicense/Classes'),
+    'Buki\\' => array($vendorDir . '/izniburak/router/src'),
 );

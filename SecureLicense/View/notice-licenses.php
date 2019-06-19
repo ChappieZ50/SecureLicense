@@ -6,7 +6,7 @@
 			<?php
 			if ( isset( $delete ) && ! empty( $delete ) ) {
 				echo $delete;
-				header( "Refresh: 1.5; url=" . URL . "notice-licenses/" );
+				header( "Refresh: 1.5; url=" . CURRENT . "/notice-licenses/" );
 			}
 			?>
 			<?php if ( isset( $licenses ) && $licenses != false ): ?>

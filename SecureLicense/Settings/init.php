@@ -17,11 +17,11 @@ if(!defined("ACCESS")){
 }
 define('SLPATH',realpath('.'));
 define('SLDIR',__DIR__);
-define('DEVMODE',false);
 define("SECPATH",realpath(".")."/SecureLicense/");
 /* Bu alanı kendi alan adınıza göre düzenlemeniz gerekiyor */
+define("CURRENT","http://localhost/SecureLicense");
+
 $ssl = isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] === 'on' ? "https" : "http";
-define("URL",$ssl."://$_SERVER[HTTP_HOST]/");
 define("POSTURL",$ssl."://$_SERVER[HTTP_HOST]/license-check/");
 /**
  * Composer Autolaoding

@@ -1,6 +1,6 @@
 <?php
 if(isset($_SESSION["login"])){
-    header("Location:".URL);
+    header("Location:".CURRENT);
     exit;
 }
 if(post("submit")){

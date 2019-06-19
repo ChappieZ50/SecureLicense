@@ -1,4 +1,4 @@
 <?php
 session_destroy();
-header("Location:".URL."login/");
+header("Location:".CURRENT."/login/");
 exit;

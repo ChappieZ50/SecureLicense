@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c15f92793efc0017e007f1d26d14d79e",
+    "packages": [
+        {
+            "name": "izniburak/router",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/izniburak/php-router.git",
+                "reference": "cc75420df6c0c889123aa0051cbab446c7d79e07"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/izniburak/php-router/zipball/cc75420df6c0c889123aa0051cbab446c7d79e07",
+                "reference": "cc75420df6c0c889123aa0051cbab446c7d79e07",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "^5.3",
+                "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5 || ^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Buki\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "İzni Burak Demirtaş",
+                    "email": "info@burakdemirtas.org",
+                    "homepage": "http://burakdemirtas.org"
+                }
+            ],
+            "description": "simple router class for php",
+            "homepage": "https://github.com/izniburak/php-router",
+            "keywords": [
+                "Simple",
+                "php",
+                "route",
+                "router"
+            ],
+            "time": "2019-01-10T23:34:47+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

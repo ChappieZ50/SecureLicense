@@ -18,5 +18,5 @@ function active_sidebar_item($index, $pageName, $default = '')
 
 function get_url($url = '')
 {
-    return empty($url) ? URL.$url : URL.$url."/";
+    return empty($url) ? CURRENT.'/'.$url : CURRENT.'/'.$url."/";
 }

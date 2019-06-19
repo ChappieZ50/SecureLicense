@@ -13,5 +13,5 @@ if(post("license_check") && post("license_domain")){
 	$license = $license_check->license_check($explode_url,post("ip"),post("date"));
 	echo json_encode($license);
 }else{
-	header("Location:".URL);
+	header("Location:".CURRENT);
 }

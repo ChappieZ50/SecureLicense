@@ -13,5 +13,7 @@
             "SecureLicense\\Classes\\" : "SecureLicense/Classes/"
         }
     },
-    "require": {}
+    "require": {
+        "izniburak/router": "^1.3"
+    }
 }

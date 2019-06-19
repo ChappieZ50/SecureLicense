@@ -12,7 +12,7 @@
 
 					echo $insert['text'];
 
-					header( "Refresh:2;url=" . URL . "licenses/" );
+					header( "Refresh:2;url=" . CURRENT . "/licenses/" );
 
 				} else {
 
@@ -39,7 +39,7 @@
 
 				<?php if ( ! get( "edit" ) ): ?>
 
-                    <form action="<?= URL . 'add-license' ?>" method="POST">
+                    <form action="<?= CURRENT . '/add-license' ?>" method="POST">
 
                         <div class="form-group row">
 
@@ -85,7 +85,7 @@
 
 						<?php foreach ( $license['data'] as $data ): ?>
 
-                            <form action="<?= URL . 'add-license/?edit='.get('edit') ?>" method="POST">
+                            <form action="<?= CURRENT . '/add-license/?edit='.get('edit') ?>" method="POST">
 
                                 <div class="form-group row">
 
