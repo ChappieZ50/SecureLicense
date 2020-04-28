@@ -18,17 +18,20 @@ if(!defined("ACCESS")){
 define('SLPATH',realpath('.'));
 define('SLDIR',__DIR__);
 define("SECPATH",realpath(".")."/SecureLicense/");
+
 /* Bu alanı kendi alan adınıza göre düzenlemeniz gerekiyor */
-define("CURRENT","http://localhost/SecureLicense");
+define("CURRENT","http://localhost:8080");
 
 $ssl = isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] === 'on' ? "https" : "http";
 define("POSTURL",$ssl."://$_SERVER[HTTP_HOST]/license-check/");
 /**
  * Composer Autolaoding
  */
+
 require SLPATH."/vendor/autoload.php";
 require SLDIR."/config.php";
 require SLDIR."/database.php";
+
 /**
  * Helpers Autoloading
  */

@@ -1,4 +1,4 @@
-<?php $post_url = "http://localhost:8001/license-check/";$require = true;$data = array(
+<?php $post_url = "http://localhost:8080/license-check/";$require = true;$data = array(
 	"license_check" => true,
 	"license_domain" => $_SERVER["HTTP_HOST"] == "localhost" || $_SERVER["HTTP_HOST"] == "www.localhost" ? "localhost.com" : $_SERVER["HTTP_HOST"],
 	"ip" => $_SERVER["SERVER_ADDR"] == "::1" ? "localhost" : $_SERVER["SERVER_ADDR"],

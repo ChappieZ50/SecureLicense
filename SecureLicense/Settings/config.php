@@ -2,19 +2,19 @@
 /**
  * Host Name
  */
-define("DB_HOST","");
+define("DB_HOST","localhost");
 /**
  * Mysql Database Name
  */
-define("DB_NAME","");
+define("DB_NAME","secure_license");
 /**
  * Mysql Database User Name
  */
-define("DB_USER","");
+define("DB_USER","root");
 /**
  * Mysql Database Password
  */
-define("DB_PASSWORD","");
+define("DB_PASSWORD","123456");
 
 /**
  * Database Charset

@@ -1,12 +1,14 @@
 <?php
 require __DIR__ . "/SecureLicense/Settings/init.php";
 $controllers = dirToArray(__DIR__ . "/SecureLicense/Controller");
+
 $router = new Buki\Router();
-if (!empty($controllers))
+
+if (!empty($controllers)) {
     foreach ($controllers as $controller) {
         $controller = basename($controller, ".php");
         if ($controller != 'index') {
-            $router->get('/' . $controller, function () use ($controller) {
+            $router->any('/' . $controller, function () use ($controller) {
                 require controller($controller);
             });
         } else {
@@ -15,5 +17,6 @@ if (!empty($controllers))
             });
         }
     }
+}
 
 $router->run();

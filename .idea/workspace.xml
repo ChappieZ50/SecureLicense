@@ -2,79 +2,122 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccad3b09-dc8e-4e72-86d9-91fab12bbe6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/sys/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/sys/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/SecureLicense/Classes/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/SecureLicense/Classes/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/SecureLicense/Controller/license-check.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/SecureLicense/Controller/license-check.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/SecureLicense/Controller/license.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/SecureLicense/Controller/license.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/SecureLicense/Controller/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/SecureLicense/Controller/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/SecureLicense/Controller/quit.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/SecureLicense/Controller/quit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/SecureLicense/Helpers/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/SecureLicense/Helpers/controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/SecureLicense/Helpers/public.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/SecureLicense/Helpers/public.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/SecureLicense/Helpers/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/SecureLicense/Helpers/route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/SecureLicense/Settings/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/SecureLicense/Settings/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/SecureLicense/Settings/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/SecureLicense/Settings/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/SecureLicense/View/add-license.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/SecureLicense/View/add-license.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/SecureLicense/View/expired-licenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/SecureLicense/View/expired-licenses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/SecureLicense/View/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/SecureLicense/View/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/SecureLicense/View/licenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/SecureLicense/View/licenses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/SecureLicense/View/notice-licenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/SecureLicense/View/notice-licenses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/SecureLicense/View/static/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/SecureLicense/View/static/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/SecureLicense/View/static/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/SecureLicense/View/static/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/sys/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/license.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/sys/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SecureLicense.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SecureLicense.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/composerJson.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Classes/AddLicense.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Classes/AddLicense.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Classes/Administrator.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Classes/Administrator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Classes/DeleteLicense.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Classes/DeleteLicense.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Classes/ExpiredLicenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Classes/ExpiredLicenses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Classes/GetLicenseForID.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Classes/GetLicenseForID.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Classes/GetLicenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Classes/GetLicenses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Classes/LicenseActivity.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Classes/LicenseActivity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Classes/LicenseCheck.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Classes/LicenseCheck.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Classes/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Classes/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Classes/NoticeLicense.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Classes/NoticeLicense.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Classes/Profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Classes/Profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Classes/UpdateLicense.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Classes/UpdateLicense.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Classes/UploadImage.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Classes/UploadImage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Controller/add-license.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Controller/add-license.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Controller/administrator.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Controller/administrator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Controller/create-file.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Controller/create-file.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Controller/download.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Controller/download.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Controller/expired-licenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Controller/expired-licenses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Controller/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Controller/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Controller/license-check.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Controller/license-check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Controller/license-user.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Controller/license-user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Controller/license.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Controller/license.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Controller/licenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Controller/licenses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Controller/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Controller/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Controller/notice-licenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Controller/notice-licenses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Controller/quit.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Controller/quit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Helpers/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Helpers/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Helpers/date.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Helpers/date.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Helpers/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Helpers/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Helpers/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Helpers/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Helpers/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Helpers/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Helpers/public.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Helpers/public.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Helpers/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Helpers/route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Helpers/timeAgo.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Helpers/timeAgo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Helpers/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Helpers/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Public/Assets/CSS/Bootstrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Public/Assets/CSS/Bootstrap/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Public/Assets/CSS/SecureLicense/material-pink.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Public/Assets/CSS/SecureLicense/material-pink.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Public/Assets/CSS/SecureLicense/sl_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Public/Assets/CSS/SecureLicense/sl_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Public/Assets/CSS/SecureLicense/sl_style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Public/Assets/CSS/SecureLicense/sl_style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Public/Assets/CSS/SecureLicense/sl_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Public/Assets/CSS/SecureLicense/sl_style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Public/Assets/JS/Bootstrap/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Public/Assets/JS/Bootstrap/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Public/Assets/JS/Jquery/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Public/Assets/JS/Jquery/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Public/Assets/JS/SecureLicense/material.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Public/Assets/JS/SecureLicense/material.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Public/Assets/JS/SecureLicense/sl_main.js" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Public/Assets/JS/SecureLicense/sl_main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Public/uploads/1549542401.png" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Public/uploads/1549542401.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Public/uploads/1549804960.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Public/uploads/1549804960.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Public/uploads/1549804966.png" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Public/uploads/1549804966.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Settings/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Settings/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Settings/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Settings/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/Settings/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/Settings/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/View/add-license.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/View/add-license.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/View/administrator.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/View/administrator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/View/expired-licenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/View/expired-licenses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/View/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/View/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/View/license-user.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/View/license-user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/View/licenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/View/licenses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/View/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/View/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/View/notice-licenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/View/notice-licenses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/View/static/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/View/static/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/View/static/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/View/static/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/View/static/inc_assets/sl_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/View/static/inc_assets/sl_footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/View/static/inc_assets/sl_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/View/static/inc_assets/sl_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureLicense/View/static/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/SecureLicense/View/static/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/securelicense.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/izniburak/router/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/izniburak/router/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/izniburak/router/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/izniburak/router/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/izniburak/router/LICENCE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/izniburak/router/LICENCE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/izniburak/router/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/izniburak/router/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/izniburak/router/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/izniburak/router/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/izniburak/router/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/izniburak/router/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/izniburak/router/src/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/izniburak/router/src/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/izniburak/router/src/Router/RouterCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/izniburak/router/src/Router/RouterCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/izniburak/router/src/Router/RouterException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/izniburak/router/src/Router/RouterException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/izniburak/router/src/Router/RouterRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/izniburak/router/src/Router/RouterRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/izniburak/router/tests/RouterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/izniburak/router/tests/RouterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/izniburak/router/tests/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/izniburak/router/tests/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/izniburak/router/tests/fixtures/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/izniburak/router/tests/fixtures/TestController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/izniburak/router/tests/fixtures/controllers/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/izniburak/router/tests/fixtures/controllers/TestController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/izniburak/router/tests/fixtures/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/izniburak/router/tests/fixtures/server.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/sys/composer.json</pharConfigPath>
-  </component>
-  <component name="FileEditorManager">
-    <leaf />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>URL</find>
-      <find>private</find>
-      <find>autoload</find>
-      <find>ss</find>
-    </findStrings>
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/sys" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/sys/SecureLicense/Helpers/public.php" />
-        <option value="$PROJECT_DIR$/sys/SecureLicense/Helpers/route.php" />
-        <option value="$PROJECT_DIR$/sys/SecureLicense/View/static/header.php" />
-        <option value="$PROJECT_DIR$/sys/SecureLicense/View/add-license.php" />
-        <option value="$PROJECT_DIR$/sys/SecureLicense/View/expired-licenses.php" />
-        <option value="$PROJECT_DIR$/sys/SecureLicense/View/index.php" />
-        <option value="$PROJECT_DIR$/sys/SecureLicense/Controller/license-check.php" />
-        <option value="$PROJECT_DIR$/sys/SecureLicense/View/licenses.php" />
-        <option value="$PROJECT_DIR$/sys/SecureLicense/Classes/Login.php" />
-        <option value="$PROJECT_DIR$/sys/SecureLicense/View/notice-licenses.php" />
-        <option value="$PROJECT_DIR$/sys/SecureLicense/Controller/quit.php" />
-        <option value="$PROJECT_DIR$/sys/SecureLicense/View/static/sidebar.php" />
-        <option value="$PROJECT_DIR$/../rix/public/.htaccess" />
-        <option value="$PROJECT_DIR$/sys/SecureLicense/Controller/login.php" />
-        <option value="$PROJECT_DIR$/sys/.htaccess" />
-        <option value="$PROJECT_DIR$/sys/SecureLicense/Classes/Router.php" />
-        <option value="$PROJECT_DIR$/sys/SecureLicense/Helpers/controller.php" />
-        <option value="$PROJECT_DIR$/sys/composer.json" />
-        <option value="$PROJECT_DIR$/sys/SecureLicense/Settings/init.php" />
-        <option value="$PROJECT_DIR$/sys/index.php" />
-      </list>
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -82,73 +125,27 @@
       <path value="$PROJECT_DIR$/sys/vendor/izniburak/router" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="228" />
-    <option name="y" value="42" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
+  <component name="ProjectId" id="1bAv4uD9XNMb7ffihpefWXzfk8w" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SecureLicense" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SecureLicense" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SecureLicense" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SecureLicense" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SecureLicense" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SecureLicense" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-              <item name="SecureLicense" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SecureLicense" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SecureLicense" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-              <item name="SecureLicense" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sys" />
       <recent name="$PROJECT_DIR$/sys/SecureLicense" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -161,281 +158,27 @@
       <option name="presentableId" value="Default" />
       <updated>1560931379166</updated>
       <workItem from="1560931380770" duration="6312000" />
+      <workItem from="1588087526504" duration="2601000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6312000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="51" y="25" width="1869" height="1055" extended-state="6" />
-    <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16256158" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.329718" />
-      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.329718" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_7.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="317" column="33" selection-start-line="317" selection-start-column="33" selection-end-line="317" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/View/static/inc_assets/sl_header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/View/static/inc_assets/sl_footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/Helpers/public.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/View/static/footer.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/View/add-license.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/View/expired-licenses.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/View/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/View/licenses.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="76" column="58" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/Classes/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/View/notice-licenses.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/Controller/quit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/View/static/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/Controller/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/View/static/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/Controller/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rix/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="20" lean-forward="true" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/aa.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/Settings/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/Settings/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/sys/login.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="214" column="9" selection-start-line="214" selection-start-column="9" selection-end-line="214" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/composer.lock">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/Classes/Router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/Helpers/route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/Helpers/controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/vendor/izniburak/router/src/Router/RouterException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/Controller/add-license.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/Controller/administrator.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/Settings/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/vendor/izniburak/router/src/Router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="228" column="46" selection-start-line="228" selection-start-column="46" selection-end-line="228" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#pre#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/Controller/expired-licenses.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/Controller/license.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/license.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/SecureLicense/Controller/license-check.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/sys" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="464" y="156" width="992" height="737" key="SettingsEditor" timestamp="1588087686733">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="464" y="156" width="992" height="737" key="SettingsEditor/54.27.1866.1053@54.27.1866.1053" timestamp="1588087686733" />
+    <state width="498" height="445" key="SwitcherDM" timestamp="1588090284302">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state width="498" height="445" key="SwitcherDM/54.27.1866.1053@54.27.1866.1053" timestamp="1588090284302" />
   </component>
 </project>
