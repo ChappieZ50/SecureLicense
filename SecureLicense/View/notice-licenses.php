@@ -29,7 +29,7 @@
                                 <td><?= custom_date_format( $license["sl_date"], "Y.m.d" ) ?></td>
                                 <td><?=$license["sl_count"]?></td>
                                 <td>
-                                    <a href="?delete=<?= $license['id'] ?>" onClick="confirm('Silmek istediğinizden emin misin?')"><i class="fas fa-times-circle fa-2x delete_license"></i></a>
+                                    <a href="?delete=<?= $license['id'] ?>" onClick="return confirm('Silmek istediğinizden emin misin?')"><i class="fas fa-times-circle fa-2x delete_license"></i></a>
                                 </td>
                             </tr>
 						<?php endforeach; ?>
